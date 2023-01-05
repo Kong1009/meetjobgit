@@ -1,0 +1,27 @@
+.member-div{
+	width: 30%;
+	margin:0 auto;
+	padding: 50px 0;
+}
+
+
+
+.member-setting{
+	width: 20%;
+}
+
+
+#title{
+	border-bottom: 2px solid;
+}
+
+.member-content{
+	font-size: 20px;
+
+}
+
+#member-msg{
+	font-size: 30px;
+	text-align: center;
+	color: red;
+}
