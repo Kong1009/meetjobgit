@@ -1,0 +1,61 @@
+注意事項
+畫面工整
+版面大小
+
+
+功能
+照片牆 (限制會員才可以上傳)
+
+老師模板跟資料如果是找網站的是不是也要註明出來比較好?
+overflow
+-------------------------------------
+git 分散式版本控制系統
+github 平台(讓你來放這些版本的)
+
+git --version #查看版本號
+git config --global user.name "username"
+git config --global user.email "email"
+
+git status # 查看狀態
+
+
+-----
+git add file # 將檔案交付到暫存區(上未傳到儲存體)
+
+git commit -m "說明" # 將檔案交付到倉庫
+--
+git log --oneline # 查看版本
+git blame "檔名" # 查看誰更改的
+
+git mv "oldfileName" "NewFileName" # 更改檔名
+git rm readme.txt --cached # 馬上移出git控制
+
+git reset master^ # 一個^ 代表回上一個版本
+git reset master-5 # 代表回到前5個版本
+git reset 版本號 # 回到指定的版本
+git reset 版本號 --hard # 回到指定版本並回復目錄
+git branch -M main # 切換分支
+git push -f origin main # 依這份為主整個蓋掉
+git remote remove origin # 移除遠端
+ssh-add ~/.ssh/id_rsa #設成金鑰代理
+
+-----
+https://github.com/Kong1009/meetjobgit.git
+
+
+git bash
+建立github 金鑰
+ssh-keygen -t ed25519 -C "destroyer135791@gmail.com"
+
+git add .
+git commit -m "informac"
+
+
+git remote add origin githubUrl # 新增github儲存體位置
+
+git push -u origin master  # 推送到github
+
+
+
+
+
